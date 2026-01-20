@@ -1,11 +1,20 @@
 
 //TODO: Comment
-
+//test tests tests
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
+
+
+
+//testsetsetestes
+
+
+
+
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         configureSideMenu()
@@ -27,6 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
+/testsetestse
+
 extension AppDelegate {
     func configureRootController() {
         self.window = UIWindow()
@@ -41,7 +52,7 @@ extension AppDelegate {
     func configureSideMenu() {
         SideMenuController.preferences.drawing.menuButtonImage = UIImage(named: "menu")
         SideMenuController.preferences.drawing.sidePanelPosition = .underCenterPanelLeft
-        SideMenuController.preferences.drawing.sidePanelWidth = 300
+        SideMenuController.preferences.drawing.sidePanelWidth = 400
         SideMenuController.preferences.drawing.centerPanelShadow = true
         SideMenuController.preferences.animating.statusBarBehaviour = .horizontalPan
         SideMenuController.preferences.animating.transitionAnimator = FadeAnimator.self
